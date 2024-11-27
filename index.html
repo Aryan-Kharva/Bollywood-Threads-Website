@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood Threads - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="client.css">
+
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <br>
+    <main style="background-color: #ffffff;">
+        
+        <!--Carousel slideshow on the home page.-->
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/slideshow1.png" alt="Image 1">
+                <img src="images/slideshow2.png" alt="Image 2">
+                <img src="images/slideshow3.png" alt="Image 3">
+                <img src="images/slideshow4.png" alt="Image 4">
+                <img src="images/slideshow5.png" alt="Image 5">
+            </div>
+        <!--Back and forward buttons so users can also manually control the slideshow.-->
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
+        
+        <!--Button to book appointment.-->
+            <button class="appointment-button" onclick="window.location.href='appointment.html';">Book Appointment</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+        <img style="border:0; width:88px; height: 31px;" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WBC_HTML5_certified.png" alt="Valid HTML!">
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=referer" id="validation_link_css">
+        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+    </a>
+
+    <a href="https://wave.webaim.org/report#/" id="validation_link_disability"><img style="border:0;width:88px;height:31px" src="images/button_validation_wcag_client.png">
+    <br>
+    
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        document.getElementById("validation_link_disability").setAttribute("href","https://wave.webaim.org/report#/" + location.href);
+    </script>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick Carousel JS Library (Source: https://kenwheeler.github.io/slick/)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

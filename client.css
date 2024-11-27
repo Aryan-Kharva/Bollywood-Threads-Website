@@ -1,0 +1,402 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #fafafa;
+}
+
+header {
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    color: #000000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f4f4f5;
+}
+
+.inline-paragraphs p {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.contact-link {
+    
+    color: #000000;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #131313;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 2000px; 
+    height: 100%; 
+}
+
+.carousel-slide img {
+    width: 500px;
+    height: 1000px;
+    object-fit: cover; 
+}
+
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+.appointment-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; 
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 2px solid #fff; 
+    padding: 15px 30px;
+    cursor: pointer;
+    z-index: 3;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+.appointment-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form {
+    margin-top: 20px;
+    margin-right: 15px;
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"], input[type="email"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #3a5987;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #FF7043;
+}
+
+#lehengaCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#sarisCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#blousesCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+
+#indoWesternCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#kurtisCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#punjabiSuitsCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#chaniyaCholisCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#gownsCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#moreCarousel {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#lehengaSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#sarisSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#blousesSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#indoWesternSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#kurtisSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#punjabiSuitsSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#chaniyaCholisSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#gownsSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#moreSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#nuvYugCarousel {
+    position: relative;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+#nuvYugSlide {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 500px;
+}
+
+#exhibition1 {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+#exhibition2 {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+#exhibition3 {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+#exhibition4 {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+#owner-info {
+    display: flex;
+    align-items: flex-start;
+}
+#owner-info img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+#galleryTitle {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#appointmentTitle {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#exhibitionsTitle {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#aboutmeTitle {
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+}
