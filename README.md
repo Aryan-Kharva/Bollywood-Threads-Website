@@ -33,7 +33,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/your-username/bollywood-threads.git
+git clone https://github.com/Aryan-Kharva/Bollywood-Threads-Website.git
 
 # Navigate into the project folder
 cd bollywood-threads
