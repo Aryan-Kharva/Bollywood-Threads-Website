@@ -1,6 +1,7 @@
 🧵 Bollywood Threads Website
 A custom-designed informational and appointment booking website created for a small Indian fashion business, Bollywood Threads.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔧 Features
 Responsive website built with HTML, CSS, and JavaScript to showcase the business and its cultural fashion offerings.
 
@@ -13,4 +14,36 @@ Features an “About the Owner” section to humanize the brand and share its st
 .
 
 Styled with a consistent, modern aesthetic using custom CSS and clean layout techniques.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+🛠️ Technologies Used
+HTML5 & CSS3
+
+Vanilla JavaScript
+
+Slick Carousel (JS plugin)
+
+Custom form elements and embedded validation
+
+Modular component includes via HTMLInclude.js​
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+📂 How to Run Locally
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/bollywood-threads.git
+
+# Navigate into the project folder
+cd bollywood-threads
+
+# Open index.html in your browser
+open index.html
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+🙋‍♀️ About the Client
+Vaishali Kharva, the founder of Bollywood Threads, has turned her passion for Indian fashion into a thriving business that celebrates tradition, elegance, and diversity.
+
+
 
